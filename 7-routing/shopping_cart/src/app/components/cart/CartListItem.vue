@@ -13,7 +13,7 @@
 			</div>
 		</div>
 		<div class="cart-item__image">
-			<img src="../../assets/hoodie.png" alt />
+			<img :src="require('../../assets/' + cartItem.image_tag)" alt />
 		</div>
 	</div>
 </template>
@@ -49,6 +49,6 @@
 
 	.cart-item__modify {
 		cursor: pointer;
-		margin: 0 1px;
+		margin: 0 2px;
 	}
 </style>
